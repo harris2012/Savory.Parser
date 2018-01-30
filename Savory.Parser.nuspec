@@ -1,0 +1,22 @@
+﻿<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Savory.Parser</id>
+    <version>1.0.0</version>
+    <title>Savory.Parser</title>
+    <authors>Harris Zhang</authors>
+    <owners>Harris Zhang</owners>
+    <licenseUrl>http://www.savory.cn/</licenseUrl>
+    <projectUrl>http://www.savory.cn/</projectUrl>
+    <iconUrl>http://www.savory.cn/</iconUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <description>Savory.Parser</description>
+    <releaseNotes>Savory.Parser</releaseNotes>
+    <copyright>Copyright Savory 2017</copyright>
+    <tags>Savory Parser</tags>
+  </metadata>
+  <files>
+    <file src="Savory.Parser.Net40\bin\Release\Savory.Parser.dll" target="lib\net40" />
+    <file src="Savory.Parser.Net40\bin\Release\Savory.Parser.xml" target="lib\net40" />
+  </files>
+</package>

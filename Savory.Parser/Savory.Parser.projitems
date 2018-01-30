@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>05dd6422-e36c-4147-898e-ab06fdbf6557</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>Savory.Parser</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)BuiltInValueParsers.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DictionaryParser.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)EnumParser.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)HashSetParser.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)IValueParser.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ListParser.cs" />
+  </ItemGroup>
+</Project>
